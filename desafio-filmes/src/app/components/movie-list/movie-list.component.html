@@ -1,0 +1,20 @@
+<section>
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Ano</th>
+      <th>Diretor</th>
+      <th>Gênero</th>
+      <th>Descrição</th>
+      <th>Pôster</th>
+    </tr>
+    <tr *ngFor="let movies of moviesList">
+      <td>{{movies.nome}}</td>
+      <td>{{movies.ano}}</td>
+      <td>{{movies.diretor}}</td>
+      <td>{{movies.genero}}</td>
+      <td>{{movies.descricao}}</td>
+      <td>{{movies.poster}}</td>
+    </tr>
+  </table>
+</section>
